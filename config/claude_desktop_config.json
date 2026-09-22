@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "devops-workflow": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/absolute/path/to/mcp-devops-server",
+        "python",
+        "src/server.py"
+      ],
+      "env": {
+        "MCP_WORKSPACE_ROOT": "/absolute/path/to/a/directory/containing/your/git/repos",
+        "GITHUB_TOKEN": "your_github_personal_access_token"
+      }
+    }
+  }
+}
