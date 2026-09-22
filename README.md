@@ -2,7 +2,7 @@
 
 A minimal **Development Workflow** MCP server built with the official
 [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)'s
-high-level `FastMCP` API. It exposes exactly one resource, one tool, and
+high-level `FastMCP` API. It exposes one resource, one tool, and
 one prompt:
 
 | Capability | Name | What it does |
